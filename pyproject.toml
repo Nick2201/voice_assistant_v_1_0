@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "voice-assistant-v-1-0"
+version = "0.1.0"
+description = ""
+authors = ["Nick <nicklisits@gmail.com>"]
+readme = "README.md"
+packages = [{include = "voice_assistant_v_1_0"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "^1.5.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
