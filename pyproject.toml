@@ -9,6 +9,7 @@ packages = [{include = "voice_assistant_v_1_0"}]
 [tool.poetry.dependencies]
 python = "^3.10"
 pandas = "^1.5.3"
+pyttsx3 = "^2.90"
 
 
 [build-system]
